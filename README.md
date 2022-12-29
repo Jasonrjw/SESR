@@ -1,3 +1,10 @@
+
+Key idea: proposes Super-Effificient Super Resolution (SESR) networks, which is based on linear over-parameterization of CNNs.This paper finds that over-parameterization like RepVGG does not work when the network is not so deep. So they present Collapsible Linear Blocks to train the model. Specifically, train the model with linear blocks and long & short residuals, and then collapse linear blocks and short residuals at inference time.
+
+
+
+
+
 ## SUPER-EFFICIENT SUPER RESOLUTION (SESR)
 
 Code to accompany the paper: Collapsible Linear Blocks for Super-Efficient Super Resolution (MLSys 2022) [https://arxiv.org/abs/2103.09404]
